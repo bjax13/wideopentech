@@ -150,4 +150,26 @@ h6{
   width: 100%;
   display: flex;
   flex-direction: column;
+
+}
+.content-icon{
+    width: 131px;
+    cursor: pointer;
+}
+.content-icon img {
+    width: 100%;
+}
+.content-services-description{
+  width: 75%;
+  text-align: center;
+}
+.content-services-cta{
+  width: auto;
+  text-align: center;
+}
+.content-services-arrowbutton{
+  width: 30px;
+}
+.content-services-arrowbutton img{
+  width: 100%;
 }
