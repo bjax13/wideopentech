@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500|Unna');
+html {
+    font-size: 16px;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+h1,h2,h3,h4,h5,h6 {
+    color: #232323
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    color: #898989;
+}
+h1{
+     font-size: 3rem;
+ }
+h2{
+    font-size: 2.8rem;
+}
+h3{
+    font-size: 2.4rem;
+}
+h4{
+     font-size:2.2rem;
+ }
+h5{
+    font-size: 2rem;
+}
+h6{
+    font-size: 1.8rem;
+}
+*,*before,*after{
+  box-sizing: border-box;
+}
+
+.full-body{
+  padding-top: 12vh;
+}
+.nav-bar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 12vh;
+  background: #fff;
+  margin-bottom: 100px;
+}
+.nav-bar-logo{
+  position: absolute;
+  top: 25%;
+  left: 20px;
+  width: 150px;
+}
+.nav-bar-logo img{
+  width: 100%
+}
+.nav-bar-ham{
+  position: absolute;
+  top: 25%;
+  right: 20px;
+  width: 24px;
+}
+.nav-bar-ham img{
+  width: 100%;
+}
+.top-container{
+  background: url("img/wot-masthead-dark.jpg") center no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+
+}
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.top-title{
+  padding: 15px 15px 0;
+  color: white;
+  text-align: center;
+  width: 100%;
+
+}
+.top-title-large{
+  color: #fff;
+  width: 100%;
+}
+.top-title-med{
+  font-size: 1.4rem;
+}
+.top-title-small{
+  font-size: 1rem;
+  letter-spacing: 0;
+}
+.top-title-sub{
+  position: relative;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.top-title-sub::after{
+  content: " ";
+  display: block;
+  position: absolute;
+  left: -20%;
+  top: 5px;
+  height: 9px;
+  width: 20%;
+  background: #fff;
+}
+.top-title-sub::before{
+  content: " ";
+  display: block;
+  position: absolute;
+  right:  -20%;
+  top: 5px;
+  height: 9px;
+  width: 20%;
+  background: #fff;
+}
+.top-container-button{
+  padding: 50px 0;
+
+}
+.top-learnmore-button{
+  background-color: #bdd436;
+  border-radius: 25px;
+  color: #fff;
+  border: 2px solid #bdd436;
+  width: 80vw;
+  outline: none;
+
+}
+.top-learnmore-button:hover {
+    padding: 10px 15px;
+    background: #C8E23A ;
+    color: #fff ;
+    border: 2px solid #C8E23A ;
+    text-decoration: none;
+}
+.content-works{
+  background: gray;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.content-services{
+  background: yellow;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
