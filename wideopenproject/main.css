@@ -166,7 +166,7 @@ h6{
   width: 100%
 }
 
-.content-works-how p{
+.subtitle-text-colorpecial p{
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
   font-size: 2.6rem;
@@ -174,7 +174,7 @@ h6{
   text-align: center;
   color: #6a787c;
 }
-.content-works-how span{
+.subtitle-text-colorpecial span{
   font-weight: 700;
   color: #bdd436;
 }
@@ -226,4 +226,6 @@ h6{
   width: 100%;
 }
 
-start of
+.content-how2help{
+  background: #f0f0f0;
+}
